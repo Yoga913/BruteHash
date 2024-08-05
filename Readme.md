@@ -92,6 +92,22 @@ python hashcrack.py --md5 d41d8cd98f00b204e9800998ecf8427e --wordlist wordlist.t
 python hashcrack.py --sha256 e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 --wordlist wordlist.txt --output result.txt
 ```
 
+## Saran
+
+**Beberapa sumber wordlist yang bisa Anda pertimbangkan:**
+
+1. **SecLists**: Ini adalah koleksi wordlist yang sangat besar dan beragam untuk berbagai keperluan. Anda bisa menemukannya di [GitHub SecLists](https://github.com/danielmiessler/SecLists). Cari folder "Passwords" untuk wordlist yang khusus untuk brute force.
+
+2. **RockYou**: Ini adalah salah satu wordlist paling terkenal dan sering digunakan dalam pemecahan hash. Wordlist ini bisa ditemukan di berbagai tempat, termasuk [RockYou Wordlist](https://github.com/praetorian-inc/Hob0Rules/blob/master/rockyou.txt).
+
+3. **Crunch**: Jika Anda ingin membuat wordlist sendiri, Crunch adalah alat yang memungkinkan Anda untuk menghasilkan wordlist berdasarkan pola tertentu. Anda bisa mengunduhnya di [Crunch GitHub](https://github.com/crunch-sec/crunch).
+
+4. **Weakpass**: Situs ini menyediakan berbagai wordlist yang bisa diunduh untuk berbagai kebutuhan. Anda bisa mengunjungi [Weakpass](https://weakpass.com/).
+
+5. **GitHub - Password Lists**: Ada banyak repositori di GitHub yang menawarkan wordlist untuk keperluan cracking hash. Misalnya, [Password Lists](https://github.com/berzerk0/Probable-Wordlists) adalah repositori yang sangat besar dengan berbagai wordlist.
+
+Anda bisa memilih wordlist yang sesuai dengan kebutuhan Anda, atau menggunakan beberapa wordlist untuk meningkatkan peluang dalam pemecahan hash.
+
 ## Lisensi
 
 Proyek ini dilisensikan di bawah lisensi MIT - lihat file [LICENSE](LICENSE) untuk detailnya.
